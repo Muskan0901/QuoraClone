@@ -1,0 +1,393 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    top:0;
+}
+body{
+    margin:0px;
+    background-color: rgb(236,235,235);
+   
+   
+}
+#main-div-container{
+    margin:0px;
+    padding: 0;
+   
+}
+.nav-bar{
+    margin-top: 0px;
+    width:100%;
+    background-color:white;
+    height: 60px;
+    position: fixed;
+}
+.ul-list li{
+    display:inline-block /*flex*/;
+}
+.ul-list li a{     
+    padding: 10px;
+      
+}
+.ul-list li button{
+    padding: 10px;
+}
+.ul-list li a img:hover{
+    opacity: 0.6;
+    background-color: rgb(126,137,147);
+}
+#id:hover{
+    background-color: rgb(245, 114, 226);
+   
+}
+#FirstText{
+    margin-left: 30px;
+    color:rgb(185, 43, 39);;
+    font-size: x-large;
+    text-decoration: solid;
+}
+#FirstText:hover{
+    opacity: 0.7;
+}
+
+li a img:hover {
+    background-color: gray;
+  }
+
+  .text{
+    float: right;
+    
+    border: none;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;;
+    font-size: 16px;
+    width: 380px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    height: 30px;
+    
+  }
+  .text:hover{
+    border:1px solid black;
+  }
+
+  .input1Text {
+    border:none;
+    width: 350px;
+    height: 29px;
+  }
+  
+  
+
+
+
+#try{
+    clear:both;
+    display: block;
+    text-align: center;
+    font-size: small;
+    border: 1px solid rgba(209, 209, 204, 0.534);
+    border-radius: 30px;
+    height: 25px;
+    width:90px;
+    background-color: transparent; 
+    padding-top: 0;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:#939598;
+}
+#lang{
+    display: block;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#try:hover{
+    background-color:  rgba(177, 177, 165, 0.534);
+}
+#id{
+    margin-top: 5px;
+    display: block;
+    color:white;
+    border:none;
+    height: 30px;
+    width:30px;
+    background-color: rgb(240, 52, 212);
+    border-radius:50%;
+    text-align: center;
+    
+}
+.AddQues{
+
+    display: block;
+    background-color: red;
+    border:none;
+    color: white;
+    border:none;
+    height: 30px;
+    width:110px;
+    border-radius: 30px;
+    margin-top: 0px;
+    margin-left: 10px;
+    padding:2px;
+
+}
+
+/*Second nav bar*/
+.border2 a{
+    display:none;
+}
+
+/*sideBar*/
+
+.side-bar{
+    display: block;
+    background-color:/*rgb(236,235,235)*/red;
+    width:125px;
+    box-sizing: border-box;
+    height: calc(100vh - 66px);
+    position:fixed;   /*it should be sticky*/
+    margin-top: 70px;
+    margin-left: 33px;
+    text-align: center;
+    z-index:-2;
+    
+
+}
+.side-bar .div-terms span a{
+    color:#939598;
+    text-decoration: none;
+}
+
+.side-bar .div-terms span a:hover{
+    text-decoration: underline;
+}
+
+.side-bar button{
+    margin:10px;
+    display:block;
+    border:none;
+    margin-left: 20px;
+    color:#636466;
+   
+}
+
+.side-bar button:hover{
+    background-color:rgb(196,196,196) ;
+}
+
+.side-bar img{
+    border-color: rgba(0,0,0,0.06)!important;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    height: 16px;
+    width:16px;
+
+}
+.main-container div span{
+    color:#939598;
+    text-size-adjust: 100%;
+    margin-left: 10px;
+}
+
+/*mid part*/
+.mid-part 
+{
+    border:none;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    position:absolute;   /*No change to be done*/
+    left:16%;
+    top:60px;
+    
+    z-index: -1;
+    
+}
+.mid-part>div{
+
+    border:1px solid #939598;
+    border-radius: 3px;
+    background-color: white;
+    display: block;
+   
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* Text in the mid part*/
+.mid-part div {
+    padding: 15px;
+}
+.mid-part .First{
+    padding: 10px;
+    height: 100px;
+    width:95%;
+}
+
+#id2{
+    margin-top: 5px;
+   
+    color:white;
+    border:none;
+    height: 30px;
+    width:30px;
+    background-color: rgb(240, 52, 212);
+    border-radius:50%;
+    
+    
+}
+
+
+
+.mid-part .Second ol li{
+    padding: 20px;
+    height: 150px;
+    width:95%;
+}
+
+.mid-part .Third{
+    height: 150px;
+    width:95%;
+}
+.mid-part .Fourth{
+    height: 150px;
+    width:95%;
+}
+
+
+#myInput{
+    width: 80%;
+    border:1px solid gray;
+    height: 25px;
+    border-radius: 10px;
+
+}
+.mid-part div input[type="text"]
+{
+    width:90%;
+}
+
+/* left sidebar */
+.rightsidebar{
+    border:1px solid  #939598;
+    box-sizing: border-box;
+    width: 290px;
+    height: 500px;
+    position: fixed;
+    left:70%;
+    top:70px;
+    text-align: center;
+    background-color: white;
+    display: block;
+}
+
+.rightsidebar img{
+    height: 200px;
+    width:250px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+.rightsidebar p{
+    color:grey
+}
+
+/* @media only screen and(max-width: 965px){
+    .input1Text{
+        
+        width: 150px;
+    }
+    .AddQues{
+        width:80px;
+        font-size: smaller;
+    }
+    
+} */
+@media only screen and (max-width: 1000px)
+{
+    #try{
+        display: none;
+    }
+    #lang{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 800px) {
+   .rightsidebar{
+    display: none;
+   } 
+   .mid-part 
+    {
+   
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    left:30%;
+    top:70px;
+    
+
+        }
+     .side-bar{
+       
+        margin-left: 40px; 
+    
+    }
+    
+    
+    .border2 a{
+        position: relative;
+        margin-top: 60px;
+        
+        display:block;
+        margin-left: 10px;
+        z-index: 3;
+    }
+
+    .nav-bar2{
+        margin-top: 60px;
+        height:100rem;
+        width:6%;
+        background-color: white;
+        z-index: 3;
+        position:fixed;
+        
+    }
+
+     .border a{
+        display: none;
+     }
+
+    
+     @media only screen and (max-width: 746px)
+     {
+        .text{
+            
+           width:150px
+            
+          }
+          
+          .input1Text {
+           
+            width: 120px;
+          
+          }
+          
+        }
+          
+
+     } 
+    
+    
+  }

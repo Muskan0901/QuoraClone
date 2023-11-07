@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Quora.png">
+    <title>Quora</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="extra2css.css">
+    
+    <script src="scripe.js"></script>
+    <style>
+        .FirstSpan{
+            margin:8%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="main-div-container">
+    <!--Nav Bar-->
+    <nav class="nav-bar">
+        <div class="list">
+            <div class="div-nav">
+                <div>
+                    <a id="FirstText"><b>QUORA</b></a>
+                </div>
+                <div class="border">
+                    <a href="#s"><img src="./Assets/BlackHouse.png" alt="BlackHouse" height="27" width="27" id="BlackHouse" onclick="change()" ></a>
+                </div>
+                <div class="border">
+                    <a href="#s"><img src="./Assets/BlackFollowing.png" height="27" width="27" id="BlackFollowing" onclick="changeFollowing()"></a>
+                </div>
+                <div class="border">
+                    <a href="#s"><img src="./Assets/BlackAns.png" height="27" width="27" id="BlackAns" onclick="changeAnswering()" ></a>
+                </div>
+                <div class="border">
+                    <a href="#s"><img src="./Assets/BlackSpaces.png" height="27" width="27" id="BlackSpaces" onclick="changeSpaces()" ></a>
+                </div>
+                <div class="border">
+                    <a href="#s"><img src="./Assets/BlackBell.png" alt="BlackBell" height="27" width="27" id="BlackBell" onclick="changeBell()"></a>
+                </div>
+                <div class="displayedli">
+                    <div class="text">
+                        <img src="./Assets/searchIcon.png" height="16" width="16">
+                        <input type="text" placeholder="Search..." class="input1Text" onclick="nochange()" id="inputNochange">
+                        <!--<input type="text" class="hide">-->
+                    </div>
+                </div>
+
+                <div>
+                <button id="try" style="padding-top: 5px;">Try Quora+</button>
+                </div>
+                <div>
+                    <button id="id"> M </button>
+                </div>
+                <div>
+                    <a id="lang"><img src="./Assets/language.jpg" height="24" width="24"></a>
+                </div>
+                <div>
+                <button class="AddQues" onclick="document.location'default.html'">Add Question</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="nav-bar2">
+        <div class="list2">
+            <ul type="none" class="ul-list2">
+                
+                <li class="border2">
+                    <a href="#s"><img src="./Assets/BlackHouse.png" alt="BlackHouse" height="20" width="20" id="BlackHouse" onclick="change()" ></a>
+                </li>
+                <li class="border2">
+                    <a href="#s"><img src="./Assets/BlackFollowing.png" height="20" width="20" id="BlackFollowing" onclick="changeFollowing()"></a>
+                </li>
+                <li class="border2">
+                    <a href="#s"><img src="./Assets/BlackAns.png" height="20" width="20" id="BlackAns" onclick="changeAnswering()" ></a>
+                </li>
+                <li class="border2">
+                    <a href="#s"><img src="./Assets/BlackSpaces.png" height="20" width="20" id="BlackSpaces" onclick="changeSpaces()" ></a>
+                </li>
+                <li class="border2">
+                    <a href="#s"><img src="./Assets/BlackBell.png" alt="BlackBell" height="20" width="20" id="BlackBell" onclick="changeBell()"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   
+    <!--Sidebar-->
+    <div class="main-container">
+        <div class="side-bar">
+            <button>+Create Space</button>
+            <button><img src="./Assets/eyeglasses.jpg">  Eyeglasses</button>
+            <button><img src="./Assets/eye.jpg">  Eyes</button>
+            <button><img src="./Assets/eyesigthchar.jpg">  Eyesight</button>
+            <button><img src="./Assets/food.jpg">  Food</button>
+            <button><img src="./Assets/health.jpg">  Health</button>
+            <br>
+            <hr>
+            <br>
+            <div class="div-terms">
+                <span><a href="#">About .</a>
+                <a href="#">Careers .</a></span>
+                <span><a href="#">Terms .</a>
+                <a href="#">Privacy .</a></span>
+                <span><a href="#">Acceptable Use .</a></span>
+                <span><a href="#">Business .</a>
+                <a href="#">Press .</a></span>
+                <span><a href="#">Your Ad Choice .</a></span>
+                <span><a href="#">Grievance Officer</a></span>
+            </div>
+        </div>
+    </div>
+    <!--mid part-->
+    <main class="mainpart-container">
+        <div class="mid-part">
+            <div id="First">
+                
+                <button id="id2">M</button>
+                <input type="text" id="myInput" placeholder="Ask the Ques and Ans...">
+                 <br />
+                <br />
+                <hr>
+                <br />
+               <!--padding not accepted-->
+                <span  style="margin:8%;"><span  style="margin-left:8%;margin-right: 8%;"> Ask </span> | <span  style="margin:8%"> Answer </span> | <span onclick="newElement()" class="addBtn" style="margin:8%"> Post </span>
+                </span>
+                
+            </div>
+            <div id="Second">
+                <span>
+                   
+                    <img src="./Assets/PersonForStudy.png" height="20" width="20" style="border:none; border-radius: 50%;">  
+
+                      <span>
+                        <b>  Asutosh Samal</b>
+                         · 
+                        <a href="#">Follow</a>
+                        <br>
+                        Studies Bachelor of Medicine and Bachelor of Surgery Degrees at SCB Medical College</span>
+                
+                </span> 
+                <br />
+                <br />
+                <p><h3>How do top students study?</h3><br />
+                I am an above-average student at Caltech. I don't think I study particularly hard, but I do
+               <br /> 
+               <br />
+               
+                    1. Get 8-9 hours of sleep a night. This allows me to go to class well-rested and do my problem sets with greater efficiency.<br />
+                    2. Always go to class. Even if the lectures are not useful, they serve to structure my day. Having lots of free time creates diminishing returns for me - three hours isn't too different from four hours, but having one block of three hours and one block of one hour is significantly better.<br/>
+                    3. Spend a lot of time working on my problem sets before I ask others for help. I like to think that all my time spent getting nowhere on problem sets gives me a deeper understanding of the material. And I don't know about you, but I find it way easier to concentrate when there's no one else in the room.<br/>
+                    4. Start my sets the day they come out (at least for the first few weeks!). You'll probably spend more time on them, but being ahead will boost your morale. Plus you'll have time to go to office hours and you won't feel pressured to pull an all-nighter on the last day.</li>
+                    5. For some classes, I read the book before going to lecture. Try and have a schedule for reading the book so you don't slack off. Also, you won't have time to read the book for all your classes, so choose wisely.<br />
+                    6. Use the Mac app SelfControl to block Quora, Facebook, and other distractions during the day. I promise I'll turn it on after this answer!<br />
+                
+                Oh, and for math classes, you really have to read the proofs. Don't be one of those students who skips over them because they have no relevance to the problem sets. Reading the proofs will build up your mathematical maturity, just like lifting weights builds your muscles.</p>
+                <br />
+                <img src="./Assets/topStudentStudy.png" height="100%" width="100%">
+            </div>
+            <div id="Third">
+                <span>
+                <img src="./Assets/PersonForStudy.png" height="20" width="20" style="border:none; border-radius: 50%;">  
+                
+                <span>
+                   
+                  <b>Isabel Huang</b>
+                  · 
+                <a href="#">Follow</a><br />
+                korean idol music enthusiast
+                Updated 3y
+                </span>
+                    <span>
+                        Sponsered
+                    </span>
+                
+                </span>
+                <br />
+                <br />
+           
+                <h3><b>Why does RM (BTS) have the lowest amount of followers in general?</b></h3>
+                RM has fewer, but in my experience more loyal fans. Within BTS, each member has a different 
+                skillset and personality. The members with more mainstream appealing qualities eg singing 
+                (as opposed to rap), cute and sweet personalities (as opposed to a more serious or 
+                philosophical one), or stereotypically attractive faces, will of course have a greater quantity
+                 of fans who bias them. However, those who appreciate RM’s qualities, really appreciate them.
+                  And personally, I recognise how rare it is to find someone like him - intelligent, humble, 
+                  charismatic, and wholesome.
+                  <br/>
+                  <br />
+                  <img src="./Assets/BTS.jpg" height="100%" width="100%">
+                </div>
+               <div id="Fourth">
+                <span>
+                        <img src="Assets/AWSIcon.png" height="20" width="20" style="border:none; border-radius: 50%;"><span>Amazon Web Services (AWS)</span><br />
+                        <span>
+                            Sponsered
+                        </span>
+                    
+                    </span> 
+               <br />
+               <br />
+                <h3><b>Build & train machine learning models fast. Get started for free.</b></h3>
+                AWS removes the complexity of building, training, and deploying machine learning models at any scale.
+                <br />
+                <br />
+                <img src="./Assets/AWSExample.png" height="100%" width="100%">
+            </div>
+
+            
+                <ul>
+
+                </ul>
+            
+
+        </div>
+    </main>
+    <!--right side bar-->
+    <div class="Ad-conatiner">
+        <div class="rightsidebar">
+            <img src="./Assets/BK-ad.jpg" >
+            <br>
+         
+            <img src="./Assets/PH-ad.png">
+            <hr>
+            <p>Advertisement</p>
+        </div>
+    </div>
+    </div>
+        <script src="scriptForPosting.js"></script>
+    </body>
+</html>

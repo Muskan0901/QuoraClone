@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.start-div{
+    background-color: white;
+    height: 80%;
+    width:60%;
+    position: absolute;
+    left:23%;
+    top:15%;
+
+}
+
+.start-div .FirstDiv{
+    padding: 25px;
+}
+
+.start-div .FirstDiv h1{
+    color: rgb(185, 43, 39);
+    text-decoration: solid;
+    text-align: center;
+    font-size: 60px;;
+}
+.start-div .FirstDiv p{
+    text-align: center;
+
+}
+
+.start-div form input{
+    border: 0.5px solid grey;
+    height: 30px;
+    width: 400px;
+    border-radius: 3px;
+}
+
+.start-div form input:hover{
+    border-color:blue ;
+}
+
+.start-div form a{
+    color: grey;
+    text-decoration: none;
+}
+
+.start-div form a:hover{
+    text-decoration: underline;
+}
+
+.start-div form button{
+    position: relative;
+    left: 32%;
+    border: none;
+    background-color: blue;
+    color:white;
+    border-radius:20px;
+    height: 30px;
+    width: 65px;
+}
+
+.Last-Line{
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 10px;
+    background-color: rgb(236, 231, 231);
+    height: 10%;
+    width:100%;
+    text-align: center;
+}
+.Last-Line a img{
+    height: 16px;
+    width: 16px;
+}
